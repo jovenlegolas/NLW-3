@@ -1,0 +1,55 @@
+Arguments: 
+  /home/daniel/.nvm/versions/node/v12.18.2/bin/node /usr/share/yarn/bin/yarn.js add expo
+
+PATH: 
+  /home/daniel/.vscode-server/bin/93c2f0fbf16c5a4b10e4d5f89737d9c2c25488a3/bin:/home/daniel/.nvm/versions/node/v12.18.2/bin:/home/daniel/.zinit/polaris/sbin:/home/daniel/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/c/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.3.2651.0_x64__8wekyb3d8bbwe:/c/oracle/product/10.2.0/client_1/bin:/c/Program Files (x86)/Embarcadero/Studio/14.0/bin:/c/Users/Public/Documents/Embarcadero/Studio/14.0/Bpl:/c/Program Files (x86)/Embarcadero/Studio/14.0/bin64:/c/Users/Public/Documents/Embarcadero/Studio/14.0/Bpl/Win64:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Windows/System32/OpenSSH/:/c/Program Files (x86)/Veridis/Biometric SDK/bin/x86:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/TortoiseGit/bin:/c/Program Files/Git/cmd:/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/c/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/:/c/Program Files (x86)/Common Files/Siemens/System:/c/Program Files/dotnet/:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Users/daniel/AppData/Local/Microsoft/WindowsApps:/c/Users/daniel/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/daniel/.dotnet/tools:/usr/lib/jvm/java-8-openjdk-amd64/bin:/home/daniel/Android/tools:/home/daniel/Android/platform-tools:/usr/lib/jvm/java-8-openjdk-amd64/bin:/home/daniel/Android/tools:/home/daniel/Android/platform-tools
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: self signed certificate in certificate chain
+      at TLSSocket.onConnectSecure (_tls_wrap.js:1501:34)
+      at TLSSocket.emit (events.js:315:20)
+      at TLSSocket._finishInit (_tls_wrap.js:936:8)
+      at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:710:12)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~39.0.2",
+      "expo-status-bar": "~1.0.2",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "react-native-web": "~0.13.7",
+      "@types/react": "~16.9.35",
+      "@types/react-dom": "~16.9.8",
+      "@types/react-native": "~0.63.2",
+      "typescript": "~3.9.5"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
